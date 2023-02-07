@@ -1,0 +1,15 @@
+name: "Google Ping"
+on:
+  schedule:
+    - cron: "* * * * *" 
+
+jobs:
+  goole_ping:
+    name: Test
+    runs-on: ubuntu-latest
+  
+    steps:
+    
+       - run: ping 8.8.8.8
+
+
