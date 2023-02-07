@@ -6,7 +6,7 @@ on:
 
 jobs:
   goole_ping:
-    name: Test
+    name: Ping 8.8.8.8
     runs-on: ubuntu-latest
   
     steps:
