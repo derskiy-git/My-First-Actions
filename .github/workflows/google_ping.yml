@@ -10,6 +10,8 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-       - run: ping 8.8.8.8 -c 5
+       - name: Ping 
+         run: ping 8.8.8.8 -c 5
 
-
+       - name: Resolv 
+         run: host google.com
