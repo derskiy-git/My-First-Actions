@@ -1,7 +1,8 @@
 name: "Google Ping"
 on:
-  schedule:
-    - cron: "* * * * *" 
+  push:
+    branches:
+      - main
 
 jobs:
   goole_ping:
